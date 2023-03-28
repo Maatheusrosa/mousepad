@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 1600px) {
+    .produtos {
+        width: 290px;
+        margin-left: 50px;
+    }
+
+    .img_lazyloaded {
+        position: absolute;
+        width: 270px;
+        height: 220px;
+        margin-top: -30px;
+        margin-left: -270px;
+        opacity: 0%;
+        cursor: pointer;
+    }
+
+    .produtos:hover > .img_lazyloaded {
+        opacity: 100%;
+        margin-top: -30px;
+        }
+
+    .img_prin {
+        width: 270px;
+        height: 170px;
+        display: inline;
+        margin-left: -5px;
+        cursor: pointer;
+    }
+
+    
+    #produto2 {
+        margin-left: 390px;
+    }
+
+    #produto3 {
+        margin-left: 720px;
+    }
+}

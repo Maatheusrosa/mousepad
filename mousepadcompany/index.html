@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mousepad</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="estilos_css/medio.css">
+    <link rel="stylesheet" href="estilos_css/pequeno.css">
+    <link rel="stylesheet" href="estilos_css/mobile.css">
+
+</head>
+<body>
+    <header>
+        <p>We are experiencing longer than normal print/fulfilment times. We will be working overtime to get your orders shipped ASAP!</p>
+    </header>
+    <main>
+        <section id="vertical">
+            
+            <div id="sup_vertical">
+                <p class="itens_menu_up" id="m1"><b>Best Sellers</b></p>
+                <p class="itens_menu_up" id="m2"><b>New Arrivals</b></p>
+                <p class="itens_menu_up" id="m3"><b>Limited-Time Prints</b></p>
+            </div>
+            <div id="div_collections">
+                <h2 id="collections" onclick="clicou()">Collections</h2><p id="seta">></p>
+            </div>
+            <div id="inf_vertical">
+                <p class="itens_menu_dw" style="width: 150px;">Ongoing Promotions</p>  
+                <p class="itens_menu_dw" style="width: 40px;">FAQ</p> 
+                <p class="itens_menu_dw" style="width: 122px;">Shipping Policy</p> 
+                <p class="itens_menu_dw" style="width: 120px;">Refound Policy</p>  
+                <p class="itens_menu_dw" style="width: 130px;">Earn As An Artist</p>
+        </div>
+        </section>
+
+        <!--Section escondida________________________________________-->
+
+        <section id="escondida">
+            <p id="fechar" onclick="fechou()">X</p>
+                <div id="menu_itens_shadow">
+                    <p class="itens_menu_up" id="p">Artist Series</p>
+                    <p class="itens_menu_up" id="p">Race</p>
+                    <p class="itens_menu_up" id="p">Flora</p>
+                    <p class="itens_menu_up" id="p">Camo</p>
+                    <p class="itens_menu_up" id="p">Strata Magma</p>
+                    <p class="itens_menu_up" id="p">Strata Liquid</p>
+                    <p class="itens_menu_up" id="p">Eternal Victory</p>
+                    <p class="itens_menu_up" id="p">Masterpiece</p>
+                    <p class="itens_menu_up" id="p">Space</p>
+                    <p class="itens_menu_up" id="p">Twisted</p>
+                </div>
+            <div id="shadow" onclick="fecharFora()"></div>
+        </section>
+
+        <!--Section escondida________________________________________-->
+        <section id="horizontal">
+            <h2 id="liquid" style="font-style: italic;">Strata Liquid Collection</h2>
+            
+            <div class="produtos" id="produto1">
+                <p class="on_sale">ON SALE</p>
+                <img src="imgs/mousepad_preto.jpg" alt="Strata_Liquid_01 - The Mousepad Company"  class="img_prin" id="imgl1">
+
+                <img src="imgs/pc-preto.png" alt="Strata_Liquid_01 - The Mousepad Company" class="img_lazyloaded" loading="lazy">
+                <p class="nome_produtos" id="fotinhas"><strong>strata_liquid_01</strong></p class="fotos">
+                <p class="preco_produtos">On Sale from $39.99</p>
+            </div>
+            
+            <div class="produtos" id="produto2">
+                <p class="on_sale">ON SALE</p>
+                <img src="imgs/mousepad_azul.png" alt="Strata_Liquid_02 - The Mousepad Company" class="img_prin" class="fotos" id="fotinhas">
+
+                <img src="imgs/pc-azul.png" alt="Strata_Liquid_02 - The Mousepad Company" class="img_lazyloaded" class="fotos" id="fotinhas">
+                <p class="nome_produtos"><strong>strata_liquid_02</strong></p>
+                <p class="preco_produtos">On Sale from $39.99</p>
+            </div>
+            
+            <div class="produtos" id="produto3">
+                <p class="on_sale">ON SALE</p>
+                <img src="imgs/mousepad_vermelho.png" alt="Strata_Liquid_03 - The Mousepad Company" class="img_prin" class="fotos" id="fotinhas">
+
+                <img src="imgs/pc-vermelho.png" alt="Strata_Liquid_03 - The Mousepad Company" class="img_lazyloaded" class="fotos" id="fotinhas">
+                <p class="nome_produtos" class="fotos"><strong>strata_liquid_03</strong></p>
+                <p class="preco_produtos">On Sale from $39.99</p>
+            </div>
+        </section>
+    </main>
+    <script src="prot.js"></script>
+</body>
+</html>
